@@ -1,3 +1,5 @@
+Tech exam implemented using Ruby on Rails as backend and Reactjs as Frontend.
+
 ## Dependencies
 
 *Backend*
@@ -47,3 +49,18 @@ Note: currently no authentication has been implemented
 - Toggle ISBN - `http://localhost:3000/api/v1/convert/<isbn>` - get request - params: *isbn*
 
 
+## Directory Structure
+
+Root folder is a Rails 7 app project structure and within the rails app is a reactjs app named assessment_ui
+
+Backend
+
+- *./app/controllers/api/v1/book_controller.rb* - rails controller
+- *./app/helpers/isbn_helper.rb* - rails helper
+
+Frontend
+
+- *./assessment_ui/lib/ISBNLib.js* - reactjs helpers/library
+- *./assessment_ui/assets* - directory for all assets
+- *./asssessment_ui/components* - directory for all reactjs components
+- *./assessment_ui/src/pages* - directory for all pages
