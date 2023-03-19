@@ -1,0 +1,2 @@
+class BookPublisher < ApplicationRecord
+end
